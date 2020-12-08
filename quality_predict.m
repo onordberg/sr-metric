@@ -1,7 +1,7 @@
-function [ score ] = quality_predict( im )
+function [ score ] = quality_predict(im, model)
 
 
-load model.mat
+%load model.mat
 
 rf=model.rf;
 
